@@ -4,7 +4,8 @@ import {
   BrowserRouter as Router,Route,Link,Switch,Redirect,useLocation} from "react-router-dom";
 import Home from './Components/Home/Home';
 import NoMatch from './Components/NoMatch/NoMatch';
-import PostDetails from './Components/Home/PostDetails/PostDetails';
+import PostDetails from './Components/PostDetails/PostDetails';
+
 
 function App() {
   return (
