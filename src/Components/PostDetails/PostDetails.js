@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Comments from '../Commetns/Comments';
+import Post from '../Post/Post';
 
 const PostDetails = () => {
     let {postId}=useParams();
@@ -17,6 +19,9 @@ const PostDetails = () => {
             {title}
             <br/>
             {body}
+            <br/>
+            <Comments/>  
+            <a href="../Home/Home">Back home</a>
         </div>
     );
 };

@@ -9,6 +9,7 @@ const Post = (props) => {
             <Link to ={`/posts/${id}`}>
                 <button>See More</button>
             </Link>
+            
         </div>
     );
 };
