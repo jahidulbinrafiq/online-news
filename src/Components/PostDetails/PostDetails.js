@@ -21,7 +21,7 @@ const PostDetails = () => {
          <Container fluid className="postStyle">
            <Media>
                 <Media.Body>
-                    <h5>{title}</h5>
+                    <h5>###{title}</h5>
                     <hr/>
                     <p>{body} </p>  
                 </Media.Body>

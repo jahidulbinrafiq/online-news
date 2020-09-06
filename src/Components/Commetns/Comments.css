@@ -1,6 +1,7 @@
 .display{
-    display: flex;  
+    display: flex; 
+    width:726px; 
 }
 .styleComment{
-    margin: -9px 8px 0px 28px;
+    margin: 79px 8px 0px 28px;
 }
