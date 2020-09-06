@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
 const Images = (props) => {
+
     const [image,setImage]=useState([])
+     console.log(props)
     // console.log(props.len)
     useEffect(()=>{
         fetch(`https://randomuser.me/api/?results=${props.len}`)
@@ -14,8 +16,7 @@ const Images = (props) => {
 
     return (
         <div>
-            {image.map((im)=><img src={im.picture['thumbnail']} key={im.id.value} alt=''/>)}
-        
+             {image.map((im)=><img src={im.picture['thumbnail']} key={im.id.value} alt=''/>)}
         </div>
     );
 };

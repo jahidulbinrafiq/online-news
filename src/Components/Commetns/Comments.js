@@ -14,13 +14,11 @@ const Comments = () => {
         })
     },[])
 
-
     return (
-        <div>
-           {comments.map(comm=><li key={comm.id}>{comm.id}<br/>Name:{comm.name} <br/> Details:{comm.body}</li>)}
-           <h4>{comments.length}</h4>
-          {comments.length && <Images len={comments.length}></Images>} 
-        </div>
+        <>
+         {comments.map(comm=><p key={comm.id}>{comm.email}<br/>{comm.body}  </p>)}
+          {comments.length && <Images len={comments.length} ></Images>}
+        </>
     );
 };
 

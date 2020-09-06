@@ -14,7 +14,7 @@ const Post = (props) => {
             <h6>{title}</h6>
             <p>{result}....</p>
             <Link to ={`/posts/${id}`}>
-                <button className="btnStyle btn btn-outline-primary">See More</button>
+                <button className="btnStyle btn btn-outline-primary">See Mores➡</button>
             </Link>
             </div>
         </Container>
