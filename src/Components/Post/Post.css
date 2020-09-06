@@ -1,0 +1,16 @@
+.half-width{
+    width: 42.33%;
+    float: left;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 14px;
+    margin: 32px;
+    padding: 14px;
+    padding-left: 50px;
+    padding-right: 62px;
+    padding-top: 23px;
+    height: 167px;
+    padding-bottom: 2px;
+}
+.btnStyle{
+    margin:10px
+}

@@ -14,7 +14,7 @@ const Images = (props) => {
 
     return (
         <div>
-            {image.map((im)=><img src={im.picture['thumbnail']} key={im.id.value}/>)}
+            {image.map((im)=><img src={im.picture['thumbnail']} key={im.id.value} alt=''/>)}
         
         </div>
     );

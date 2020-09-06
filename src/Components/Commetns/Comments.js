@@ -19,7 +19,7 @@ const Comments = () => {
         <div>
            {comments.map(comm=><li key={comm.id}>{comm.id}<br/>Name:{comm.name} <br/> Details:{comm.body}</li>)}
            <h4>{comments.length}</h4>
-        {comments.length && <Images len={comments.length}></Images>} 
+          {comments.length && <Images len={comments.length}></Images>} 
         </div>
     );
 };

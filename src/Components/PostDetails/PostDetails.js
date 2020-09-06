@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Comments from '../Commetns/Comments';
-import Post from '../Post/Post';
+
 
 const PostDetails = () => {
     let {postId}=useParams();
@@ -13,7 +13,7 @@ const PostDetails = () => {
        .then(data=>setPostDetails(data))
    },[])
 //    console.log(postDetails)
-   const {id,body,title}=postDetails;
+   const {body,title}=postDetails;
     return (
         <div>
             {title}
