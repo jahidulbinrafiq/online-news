@@ -3,7 +3,7 @@ import './Images.css';
 const Images = (props) => {
 
     const [image,setImage]=useState([])
-
+      console.log(props.len)
     useEffect(()=>{
         fetch(`https://randomuser.me/api/?results=${props.len}`)
         .then(res=>res.json())
