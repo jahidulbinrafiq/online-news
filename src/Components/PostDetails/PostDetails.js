@@ -27,7 +27,6 @@ const PostDetails = () => {
                 </Media.Body>
             </Media>
             <hr/>
- 
             <Comments/>  
          </Container>
         </>
