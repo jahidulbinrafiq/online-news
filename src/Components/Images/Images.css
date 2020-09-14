@@ -1,8 +1,7 @@
 .imgStyle{
-    margin-top: 78px;
+    margin:78px 0px 0px 73px;
     line-height: 16px;
-    margin-left: 73px;
 }
 .imgStyle img{
-    border-radius: 50%;   
+    border-radius: 30%;   
 }

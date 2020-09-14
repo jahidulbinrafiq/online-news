@@ -9,15 +9,13 @@ const Home = () => {
         .then(res=>res.json())
         .then(data=>setPosts(data))
     },[])
+    
     return (
         <>
-         <Header/>
-         {
-           posts.map(post=><Post post={post}/>)
-          }
-          <div>
-          <Footer/>
-          </div>
+            <Header/>
+            {/* post component */}
+            {posts.map((post,index)=><Post post={post} key={index}/>)}
+            <Footer/>     
         </>
     );
 };

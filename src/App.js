@@ -1,11 +1,9 @@
 import React from 'react';
 import './App.css';
-import {
-  BrowserRouter as Router,Route,Link,Switch,Redirect,useLocation} from "react-router-dom";
+import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
 import Home from './Components/Home/Home';
 import NoMatch from './Components/NoMatch/NoMatch';
 import PostDetails from './Components/PostDetails/PostDetails';
-
 
 function App() {
   return (

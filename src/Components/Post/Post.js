@@ -8,18 +8,15 @@ const Post = (props) => {
     const result=body.slice(0,20);
 
     return (
-        <>
-         <Container fixed>
-         <div className='half-width'>
-            <h6>{title}</h6>
-            <p>{result}....</p>
-            <Link to ={`/posts/${id}`}>
-                <button className="btnStyle btn btn-outline-primary">See Mores➡</button>
-            </Link>
+        <Container fixed>
+            <div className='half-width'>
+                <h6>{title}</h6>
+                <p>{result}....</p>
+                <Link to ={`/posts/${id}`}>
+                  <button className="btnStyle btn btn-outline-primary">See Mores➡</button>
+                </Link>
             </div>
-        </Container>
-        
-        </>
+        </Container>  
     );
 };
 

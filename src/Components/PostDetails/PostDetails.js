@@ -13,8 +13,7 @@ const PostDetails = () => {
        fetch(url)
        .then(res=>res.json())
        .then(data=>setPostDetails(data))
-   },[])
-//    console.log(postDetails)
+   },[postId])
    const {body,title}=postDetails;
     return (
         <>
@@ -27,7 +26,7 @@ const PostDetails = () => {
                 </Media.Body>
             </Media>
             <hr/>
-            <Comments/>  
+             <Comments/>  
          </Container>
         </>
     );
