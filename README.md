@@ -1,5 +1,4 @@
-## Available Scripts
-### `npm i`
-### `npm start`
+<h2>Online News Portal</h2>
+
 
 
